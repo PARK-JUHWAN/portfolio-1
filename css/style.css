@@ -428,6 +428,9 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero__slide::before {
@@ -441,10 +444,7 @@ main {
 }
 
 .hero__content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   text-align: center;
   color: #ffffff;
   width: 100%;
